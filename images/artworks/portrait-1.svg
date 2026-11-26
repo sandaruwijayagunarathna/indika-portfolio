@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <!-- Paper texture & background -->
+    <radialGradient id="paperBase" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#faf8f4" />
+      <stop offset="70%" stop-color="#f2ece1" />
+      <stop offset="100%" stop-color="#e7decb" />
+    </radialGradient>
+    <linearGradient id="pencilStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2725" />
+      <stop offset="100%" stop-color="#4e4844" />
+    </linearGradient>
+    <pattern id="hatchPencil" width="10" height="10" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#3d3733" stroke-width="0.8" opacity="0.3" />
+    </pattern>
+    <pattern id="crossHatch" width="8" height="8" patternTransform="rotate(-30 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#252220" stroke-width="0.9" opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <!-- Fine art paper background -->
+  <rect width="800" height="1000" fill="url(#paperBase)" />
+  
+  <!-- Outer archival paper deckle border -->
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#d5cbba" stroke-width="1.2" />
+
+  <!-- Classical Graphite Pencil Portrait of an Elder -->
+  <g transform="translate(400, 480)">
+    <!-- Base Head Silhouette & Deep Shading -->
+    <path d="M-130,-220 Q-150,-140 -160,20 Q-150,140 -70,220 Q0,260 70,220 Q150,140 160,20 Q150,-140 130,-220 Q0,-290 -130,-220 Z" fill="#eee8dc" opacity="0.9" />
+
+    <!-- Tonal Hatching behind head and shoulder -->
+    <path d="M-220,180 Q-180,80 -100,50 L-90,280 L-260,320 Z" fill="url(#hatchPencil)" />
+    <path d="M220,180 Q180,80 100,50 L90,280 L260,320 Z" fill="url(#hatchPencil)" />
+    <path d="M-120,40 Q-80,180 0,250 Q80,180 120,40" fill="url(#crossHatch)" opacity="0.3" />
+
+    <!-- Forehead & Wrinkles of Wisdom -->
+    <path d="M-90,-160 Q0,-185 90,-160" fill="none" stroke="#4a4440" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M-80,-140 Q0,-160 80,-140" fill="none" stroke="#635c56" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M-70,-120 Q0,-135 70,-120" fill="none" stroke="#524b46" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Deep Eyebrows -->
+    <path d="M-95,-85 Q-65,-105 -25,-90" fill="none" stroke="#2c2826" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M25,-90 Q65,-105 95,-85" fill="none" stroke="#2c2826" stroke-width="4.5" stroke-linecap="round" />
+    <!-- Fine hair strokes on eyebrows -->
+    <path d="M-90,-90 L-85,-98 M-75,-95 L-70,-102 M-55,-94 L-50,-100 M-35,-90 L-30,-94" stroke="#23201e" stroke-width="1.5" />
+    <path d="M90,-90 L85,-98 M75,-95 L70,-102 M55,-94 L50,-100 M35,-90 L30,-94" stroke="#23201e" stroke-width="1.5" />
+
+    <!-- Eyes with life and deep expression -->
+    <!-- Left Eye -->
+    <path d="M-85,-70 Q-55,-90 -25,-70 Q-55,-55 -85,-70 Z" fill="#fdfbf7" stroke="#322e2b" stroke-width="2.5" />
+    <circle cx="-55" cy="-71" r="10" fill="#201e1d" />
+    <circle cx="-57" cy="-73" r="2.5" fill="#ffffff" />
+    <path d="M-95,-70 Q-90,-55 -75,-50" fill="none" stroke="#68605a" stroke-width="1.8" />
+    <path d="M-90,-80 Q-55,-100 -20,-80" fill="none" stroke="#544d47" stroke-width="2" />
+    
+    <!-- Right Eye -->
+    <path d="M25,-70 Q55,-90 85,-70 Q55,-55 25,-70 Z" fill="#fdfbf7" stroke="#322e2b" stroke-width="2.5" />
+    <circle cx="55" cy="-71" r="10" fill="#201e1d" />
+    <circle cx="53" cy="-73" r="2.5" fill="#ffffff" />
+    <path d="M95,-70 Q90,-55 75,-50" fill="none" stroke="#68605a" stroke-width="1.8" />
+    <path d="M20,-80 Q55,-100 90,-80" fill="none" stroke="#544d47" stroke-width="2" />
+
+    <!-- Nose Bridge, Cartilage and Shading -->
+    <path d="M-22,-70 Q-15,-20 -20,20 Q-28,30 -28,40 Q-28,52 0,55 Q28,52 28,40 Q28,30 20,20 Q15,-20 22,-70" fill="none" stroke="#3d3733" stroke-width="2.2" />
+    <path d="M-18,48 Q-12,50 -5,48 M5,48 Q12,50 18,48" stroke="#201e1d" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M-15,-10 L-6,30 L-10,45" fill="none" stroke="#7a7066" stroke-width="1.5" />
+    
+    <!-- Smile Lines & Cheeks -->
+    <path d="M-75,-30 Q-60,30 -40,80" fill="none" stroke="#5e554e" stroke-width="2" />
+    <path d="M75,-30 Q60,30 40,80" fill="none" stroke="#5e554e" stroke-width="2" />
+
+    <!-- Mustache & Beard Details (Classical Pencil Texturing) -->
+    <path d="M-65,75 Q-20,65 0,72 Q20,65 65,75 Q40,110 0,115 Q-40,110 -65,75 Z" fill="#f4efe6" stroke="#48423d" stroke-width="1.5" />
+    <!-- Mustache hair strokes -->
+    <path d="M-50,80 Q-20,85 0,80 Q20,85 50,80 M-40,90 Q-15,95 0,90 Q15,95 40,90" fill="none" stroke="#5c534c" stroke-width="1.8" />
+
+    <!-- Expressive Mouth / Lips -->
+    <path d="M-38,82 Q0,78 38,82" stroke="#2b2725" stroke-width="3" stroke-linecap="round" />
+    <path d="M-25,98 Q0,105 25,98" stroke="#4a423d" stroke-width="2.2" stroke-linecap="round" />
+
+    <!-- Chin & Beard Contour -->
+    <path d="M-60,130 Q0,210 60,130" fill="none" stroke="#3a3430" stroke-width="2.5" />
+    <path d="M-50,150 Q0,225 50,150" fill="none" stroke="#5e554d" stroke-width="1.8" />
+
+    <!-- Textured Hair & Head Shading -->
+    <path d="M-130,-150 Q-160,-220 -80,-260 Q0,-290 80,-260 Q160,-220 130,-150" fill="none" stroke="#252220" stroke-width="3" />
+    <path d="M-110,-210 Q-60,-270 0,-270 Q60,-270 110,-210" fill="none" stroke="#453e39" stroke-width="2" />
+    <path d="M-140,-120 Q-170,-80 -150,-20" fill="none" stroke="#332e2b" stroke-width="3.5" />
+    <path d="M140,-120 Q170,-80 150,-20" fill="none" stroke="#332e2b" stroke-width="3.5" />
+
+    <!-- Collar and Garment Outlines -->
+    <path d="M-160,260 Q-80,240 0,270 Q80,240 160,260 L240,420 L-240,420 Z" fill="#ebe4d5" stroke="#4e4640" stroke-width="2" />
+    <path d="M-40,270 L-30,420 M40,270 L30,420" stroke="#71675d" stroke-width="1.5" stroke-dasharray="4 3" />
+  </g>
+
+  <!-- Artist Signature in Corner -->
+  <g transform="translate(620, 930)">
+    <text x="0" y="0" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="20" fill="#4d4640">Indika W.</text>
+    <line x1="-10" y1="6" x2="80" y2="6" stroke="#6b6056" stroke-width="1" />
+  </g>
+</svg>

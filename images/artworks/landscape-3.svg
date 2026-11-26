@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <defs>
+    <linearGradient id="twilightMist" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#dad0c0" />
+      <stop offset="35%" stop-color="#f0e6d6" />
+      <stop offset="70%" stop-color="#d9cca7" />
+      <stop offset="100%" stop-color="#a49377" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="700" fill="#f8f5ee" />
+  <rect x="25" y="25" width="950" height="650" fill="none" stroke="#d5cbba" stroke-width="1.2" />
+
+  <g transform="translate(40, 40)">
+    <rect width="920" height="620" fill="url(#twilightMist)" />
+
+    <!-- Mist Layers (Translucent white/cream bands) -->
+    <rect y="260" width="920" height="70" fill="#fcf9f2" opacity="0.45" />
+    <rect y="310" width="920" height="60" fill="#fcf9f2" opacity="0.35" />
+
+    <!-- Distant Ridge with Coconut Palms Silhouette -->
+    <path d="M0,280 Q250,250 500,270 Q750,240 920,270 L920,380 L0,380 Z" fill="#6d6150" opacity="0.75" />
+
+    <!-- Small Silhouetted Palms along Ridge -->
+    <g transform="translate(300, 260) scale(0.4)">
+      <path d="M0,0 Q-10,-50 -5,-100 M-5,-100 Q-40,-130 -80,-110 M-5,-100 Q-20,-160 -5,-180 M-5,-100 Q30,-150 70,-120" stroke="#3d352b" stroke-width="5" fill="none" />
+    </g>
+    <g transform="translate(340, 255) scale(0.35)">
+      <path d="M0,0 Q10,-50 5,-100 M5,-100 Q-30,-130 -60,-110 M5,-100 Q0,-160 15,-180 M5,-100 Q40,-140 70,-110" stroke="#3d352b" stroke-width="5" fill="none" />
+    </g>
+    <g transform="translate(580, 250) scale(0.45)">
+      <path d="M0,0 Q-5,-60 0,-120 M0,-120 Q-50,-150 -90,-120 M0,-120 Q-10,-180 10,-200 M0,-120 Q40,-160 80,-130" stroke="#3d352b" stroke-width="5" fill="none" />
+    </g>
+
+    <!-- Lake / Riverbend in Foreground -->
+    <path d="M0,420 Q320,360 520,410 Q780,440 920,390 L920,620 L0,620 Z" fill="#80725c" opacity="0.8" />
+    
+    <!-- Traditional Sri Lankan Canoe / Oruwa on the water -->
+    <g transform="translate(460, 470)">
+      <!-- Canoe Hull -->
+      <path d="M-80,0 Q0,25 90,0 Q110,-5 120,-10 L-90,-5 Z" fill="#241e17" stroke="#17130f" stroke-width="2" />
+      <!-- Outrigger arm & float (Kulla) -->
+      <path d="M-40,-5 Q-20,-30 0,-30 Q20,-30 40,-5" fill="none" stroke="#332a20" stroke-width="2.5" />
+      <path d="M-50,-28 L50,-28" stroke="#1d1712" stroke-width="3.5" stroke-linecap="round" />
+      <!-- Solitary Fisherman Figure -->
+      <circle cx="-10" cy="-25" r="9" fill="#1d1712" />
+      <path d="M-20,-16 L0,-16 L10,0 L-25,0 Z" fill="#1d1712" />
+      <!-- Fishing Rod / Paddle -->
+      <line x1="-30" y1="-2" x2="45" y2="-45" stroke="#120e0b" stroke-width="2" />
+      <!-- Reflection in Water -->
+      <path d="M-80,5 Q0,20 90,5" stroke="#483f32" stroke-width="2" opacity="0.6" />
+    </g>
+
+    <!-- Foreground Water Ripples and Reeds -->
+    <g transform="translate(0, 560)">
+      <line x1="120" y1="20" x2="340" y2="20" stroke="#c0b196" stroke-width="1.8" />
+      <line x1="580" y1="25" x2="820" y2="25" stroke="#c0b196" stroke-width="1.8" />
+      <path d="M40,60 Q20,10 0,-40 M55,60 Q60,10 70,-45 M70,60 Q90,20 120,-30" stroke="#1f1a14" stroke-width="3" fill="none" />
+    </g>
+  </g>
+
+  <!-- Artist Signature -->
+  <g transform="translate(800, 640)">
+    <text x="0" y="0" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="19" fill="#3a342c">Indika W.</text>
+    <line x1="-8" y1="5" x2="70" y2="5" stroke="#544b3f" stroke-width="1" />
+  </g>
+</svg>

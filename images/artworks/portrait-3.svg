@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="paperGrad3" cx="45%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#fdfcf8" />
+      <stop offset="70%" stop-color="#f4eee2" />
+      <stop offset="100%" stop-color="#e6dcce" />
+    </radialGradient>
+    <pattern id="diagHatch" width="8" height="8" patternTransform="rotate(55 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#332e2b" stroke-width="0.8" opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#paperGrad3)" />
+  <rect x="30" y="30" width="740" height="940" fill="none" stroke="#d5cbba" stroke-width="1.2" />
+
+  <!-- Classical Side Profile Pencil Study -->
+  <g transform="translate(360, 470)">
+    <!-- Shading backdrop behind profile -->
+    <path d="M-50,-240 Q150,-180 180,40 Q200,200 40,300 L-180,300 L-180,-240 Z" fill="url(#diagHatch)" opacity="0.3" />
+
+    <!-- Pure Graphite Profile Silhouette & Line Art -->
+    <path d="M-120,-200 Q-20,-240 40,-180 Q80,-140 70,-80 L85,-75 Q95,-70 85,-40 Q75,-15 88,10 Q98,25 90,40 Q80,50 65,52 Q82,65 80,82 Q76,96 55,98 Q70,120 40,150 Q5,170 -40,165 L-90,280 L-190,280 L-150,110 Q-160,-80 -120,-200 Z" fill="#f8f4ed" stroke="#252220" stroke-width="2.5" />
+
+    <!-- Forehead into nose, lips and chin -->
+    <path d="M40,-150 L65,-80 L88,-30 Q92,-20 82,-15 L60,-5 Q78,5 78,20 Q75,32 58,35 Q74,48 70,68 Q64,82 45,90 Q58,110 32,135 Q10,150 -25,145" fill="none" stroke="#201e1d" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Eye in profile -->
+    <path d="M22,-45 L48,-38 L25,-28 Z" fill="#1e1c1b" stroke="#1e1c1b" stroke-width="1.5" />
+    <path d="M10,-55 Q35,-65 52,-48" fill="none" stroke="#332d29" stroke-width="2.5" />
+    <circle cx="38" cy="-37" r="1.5" fill="#ffffff" />
+
+    <!-- Ear & Jawline -->
+    <path d="M-45,-40 Q-70,-45 -70,-10 Q-70,25 -45,25 Q-30,25 -25,-5" fill="none" stroke="#36302b" stroke-width="2" />
+    <path d="M-45,25 Q-10,105 32,135" fill="none" stroke="#484039" stroke-width="2.2" />
+
+    <!-- Hair flows and volume -->
+    <path d="M-130,-120 Q-100,-220 0,-210 Q-50,-160 -90,-80" fill="none" stroke="#24211f" stroke-width="2.5" />
+    <path d="M-150,-50 Q-120,-160 -40,-180" fill="none" stroke="#3b3531" stroke-width="2" />
+    <path d="M-70,50 Q-90,120 -60,200" fill="none" stroke="#4b443e" stroke-width="2" />
+
+    <!-- Neck shading -->
+    <path d="M-45,70 L-30,160 L-10,155" fill="none" stroke="#635951" stroke-width="1.8" stroke-dasharray="3 2" />
+  </g>
+
+  <g transform="translate(620, 930)">
+    <text x="0" y="0" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="20" fill="#4d4640">Indika W.</text>
+    <line x1="-10" y1="6" x2="80" y2="6" stroke="#6b6056" stroke-width="1" />
+  </g>
+</svg>

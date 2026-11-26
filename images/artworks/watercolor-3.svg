@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <defs>
+    <linearGradient id="duskSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2c42" />
+      <stop offset="40%" stop-color="#3c4c68" />
+      <stop offset="70%" stop-color="#7a5f6e" />
+      <stop offset="100%" stop-color="#c48a73" />
+    </linearGradient>
+    <radialGradient id="verandaLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff2bd" stop-opacity="1" />
+      <stop offset="40%" stop-color="#f5b942" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#e3812b" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="700" fill="#f8f5ee" />
+  <rect x="25" y="25" width="950" height="650" fill="none" stroke="#d5cbba" stroke-width="1.2" />
+
+  <g transform="translate(40, 40)">
+    <!-- Twilight Sky -->
+    <rect width="920" height="420" fill="url(#duskSky)" />
+
+    <!-- Distant Foliage and Palm silhouettes against twilight -->
+    <path d="M0,350 Q160,320 320,340 Q500,310 680,345 Q800,320 920,350 L920,440 L0,440 Z" fill="#1b2432" opacity="0.8" />
+    
+    <!-- Coconut Trees silhouettes in twilight -->
+    <g transform="translate(780, 240)">
+      <path d="M0,180 Q-20,70 10,-30" stroke="#121822" stroke-width="4.5" fill="none" />
+      <path d="M10,-30 Q-50,-70 -90,-40 M10,-30 Q-20,-100 15,-110 M10,-30 Q50,-90 90,-50 M10,-30 Q70,-20 95,20" stroke="#10151f" stroke-width="3" fill="none" />
+    </g>
+    <g transform="translate(860, 260) scale(0.8)">
+      <path d="M0,160 Q10,70 -5,-30" stroke="#121822" stroke-width="4.5" fill="none" />
+      <path d="M-5,-30 Q-60,-60 -90,-30 M-5,-30 Q-10,-95 20,-105 M-5,-30 Q60,-70 85,-35" stroke="#10151f" stroke-width="3" fill="none" />
+    </g>
+
+    <!-- Warm Sri Lankan Country Village House (Walauwa / Traditional Cottage) -->
+    <g transform="translate(360, 280)">
+      <!-- Terracotta Tiled Roof (Sinhala tiles) -->
+      <polygon points="0,0 280,0 340,75 -60,75" fill="#a44630" stroke="#782d1b" stroke-width="2" />
+      <!-- Overhanging eave -->
+      <polygon points="-80,75 360,75 340,100 -60,100" fill="#752a1a" />
+      <polygon points="-60,100 340,100 310,240 -30,240" fill="#eedec5" />
+
+      <!-- Veranda Pillars (Carved wooden pillars) -->
+      <rect x="-10" y="100" width="16" height="140" fill="#3e271d" />
+      <rect x="75" y="100" width="16" height="140" fill="#3e271d" />
+      <rect x="160" y="100" width="16" height="140" fill="#3e271d" />
+      <rect x="245" y="100" width="16" height="140" fill="#3e271d" />
+
+      <!-- Veranda Warm Lamp Light -->
+      <circle cx="118" cy="120" r="14" fill="#ffffff" />
+      <circle cx="118" cy="120" r="95" fill="url(#verandaLight)" />
+
+      <!-- Front Doorway -->
+      <rect x="100" y="130" width="40" height="110" fill="#291a13" />
+
+      <!-- Steps leading to veranda -->
+      <polygon points="-40,240 320,240 330,260 -50,260" fill="#a99882" stroke="#524636" stroke-width="1.5" />
+      <polygon points="-50,260 330,260 340,285 -60,285" fill="#93816b" stroke="#524636" stroke-width="1.5" />
+    </g>
+
+    <!-- Foreground Garden Lawn & Clay Pots -->
+    <path d="M0,480 Q260,450 540,490 Q760,460 920,490 L920,620 L0,620 Z" fill="#2b3b2c" opacity="0.95" />
+    
+    <!-- Light casting on the lawn from the veranda lamp -->
+    <ellipse cx="480" cy="530" rx="140" ry="40" fill="#f5ce73" opacity="0.35" filter="blur(6px)" />
+
+    <!-- Terracotta Flower Pots (Pencil & Watercolor detail) -->
+    <g transform="translate(240, 500)">
+      <polygon points="0,30 30,30 25,60 5,60" fill="#b85c3e" stroke="#682f1d" stroke-width="1.5" />
+      <!-- Tropical foliage in pot -->
+      <path d="M15,30 Q0,5 -20,-5 M15,30 Q15,-10 12,-25 M15,30 Q35,5 50,-5" stroke="#48694b" stroke-width="3" stroke-linecap="round" fill="none" />
+    </g>
+
+    <g transform="translate(710, 520)">
+      <polygon points="0,35 36,35 30,70 6,70" fill="#b85c3e" stroke="#682f1d" stroke-width="1.5" />
+      <path d="M18,35 Q-5,10 -25,0 M18,35 Q18,-15 15,-30 M18,35 Q40,10 60,0" stroke="#48694b" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    </g>
+  </g>
+
+  <!-- Artist Signature -->
+  <g transform="translate(800, 640)">
+    <text x="0" y="0" font-family="'Cormorant Garamond', Georgia, serif" font-style="italic" font-size="19" fill="#e8dfce">Indika W.</text>
+    <line x1="-8" y1="5" x2="70" y2="5" stroke="#cfc2ab" stroke-width="1" />
+  </g>
+</svg>
